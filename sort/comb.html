@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ 
+    <!-- title -->
+    <title>Comb Sort Visualizer using JavaScript</title>
+ 
+    <!-- linking style.css -->
+    <link href="comb.css" rel="stylesheet" />
+</head>
+ 
+<body>
+    <section class="head">Comb Sort</section>
+    <section class="data-container"></section>
+    <section id="ele"></section>
+    <div style="margin: auto; width: fit-content">
+ 
+        <!-- "Generate New Array" button -->
+        <button class="btn1" onclick="generate()" id="Button1">
+            Generate New Array
+        </button>
+ 
+        <!-- "Comb Sort" button -->
+        <button class="btn2" onclick="CombSort(),disable()"
+                id="Button2">
+              Comb Sort
+          </button>
+    </div>
+    <script src="comb.js"></script>
+</body>
+</html>
